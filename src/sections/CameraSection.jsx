@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef } from 'react'
 import styled from 'styled-components'
 import video1 from '../assets/videos/scuba_dive.mp4'
-import video2 from '../assets/videos/skate.mp4'
+import video2 from '../assets/videos/Skate.mp4'
 import { gsap } from 'gsap'
 
 const Section = styled.section`
