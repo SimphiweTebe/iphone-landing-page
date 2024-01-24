@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import inkVideo from '../assets/videos/ink.mp4'
+import inkVideo from '../assets/videos/Ink.mp4'
 
 const Hero = styled.section`
   width: 100%;
