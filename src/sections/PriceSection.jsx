@@ -14,6 +14,7 @@ const Section = styled.section`
   justify-content: center;
   align-items: center;
   background-color: rgb(255,255,255);
+  padding-bottom: 30px;
 
   z-index: 1;
   overflow: hidden;
@@ -85,7 +86,7 @@ const PriceAction = styled.div`
   align-items: center;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   margin-top: 20px;
 
   button {
@@ -100,7 +101,7 @@ const PriceAction = styled.div`
   }
 
   a {
-    color: var(--blue);
+    color: white;
     text-decoration: none;
     font-weight: 400;
     position: relative;
@@ -166,6 +167,8 @@ function PriceSection() {
         <button>Buy</button>
         <a href="">Learn more</a>
       </PriceAction>
+
+      <footer>Developed by Simpiwe 🚀</footer>
 
     </Section>
   )
